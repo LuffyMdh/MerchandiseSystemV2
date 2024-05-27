@@ -1,0 +1,77 @@
+.sect-admin-req {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.sect-admin-req .mini-icon div {
+    margin: 15px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sect-admin-req .req-nav {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.sect-admin-req .mini-icon div h6 {
+    margin: 5px 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: var(--light);
+    background-color: var(--lightgray);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.status-icon {
+    margin: 0 8px;
+    border-radius: 50px;
+    padding: 0 5px;
+}
+
+.tbl-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 0;
+}
+
+.table .dropdown-item {
+    cursor: pointer;
+}
+
+.status-span-word {
+    
+}
+
+.span-pending {
+    background-color: #f3743a;
+    color: white;
+}
+
+.span-approved {
+    background-color: #00942a;
+    color: white;
+}
+
+.span-rejected {
+    background-color: #ff0000;
+    color: white;
+}
+
+.span-all {
+    background-color: #fff;
+}
+
+
+.sect-admin-req .pagination {
+    padding-top: 15px;
+}
+
+

@@ -1,0 +1,76 @@
+.sect-admin {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.sect-admin > div {
+    margin: 15px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.sect-admin .req-data,
+.sect-admin .req-data-chart {
+    display: flex;
+}
+
+.sect-admin .req-data  {
+    text-align: left;
+}
+
+.sect-admin h4 {
+    font-size: var(--PageTitle);
+    font-weight: var(--regular);
+    opacity: 0.65;
+}
+
+.sect-admin .req-data h6,
+.sect-admin .req-data-chart h6 {
+    margin: 0;
+    font-size: var(--tableHeader);
+    font-weight: var(--light);
+    opacity: 0.75;
+}
+
+.sect-admin .req-data-chart h6 {
+    font-weight: var(--regular);
+}
+
+.sect-admin .req-data > div {
+    padding: 0 5px 0 3px;
+    margin: 5px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /*max-width: 150px;*/
+}
+
+.sect-admin .req-data div span {
+    color: var(--main-color);
+    font-size: 2.3rem;
+    font-weight: var(--regular);
+    opacity: 0.8;
+}
+
+.btn-filter-date-req-chart { 
+    border: none !important;
+    margin: 15px 0 !important;
+}
+
+.btn-filter-date-req-chart > button {
+    font-size: var(--btnSize);
+    width: 120px;
+    color: var(--color-65-black);
+}
+
+@media screen and (max-width: 474px) {
+    .btn-filter-date-req-chart {
+       display: flex;
+       flex-direction: column;
+       align-items: center;;
+    }
+
+    .btn-filter-date-req-chart button {
+        margin: 5px 0;
+    }
+}

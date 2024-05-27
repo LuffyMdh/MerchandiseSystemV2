@@ -1,0 +1,93 @@
+.sect-carts {
+    width: 90%;
+    margin: auto;
+}
+
+table .quantity-control {
+    user-select: none;
+    position: relative;
+}
+
+table .quantity-control .add-sign, 
+table .quantity-control .minus-sign {
+    margin: 0 1px;
+    padding: 0 5px;
+}
+
+table .trash-icon {
+    min-width: 10px !important;
+}
+
+table .bi-trash {
+    font-size: 1rem !important;
+    
+    max-width: 10px;
+
+}
+
+table .quantity-control .add-sign,
+table .quantity-control .minus-sign,
+table .bi-trash {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+table .quantity-control .add-sign:hover,
+table .quantity-control .minus-sign:hover,
+table .bi-trash {
+    opacity: 0.5;
+}
+
+table .quantity-control .add-sign:active,
+table .quantity-control .minus-sign:active,
+table .bi-trash:active {
+    opacity: 1;
+}
+
+
+table .max-quan {
+    margin: 0;
+    font-size: var(--btnSize);
+    color: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+table .input-quan {
+    width: 45px;
+    max-width: 100%;
+    text-align: center;
+    border: 1px solid var(--bordercolor);
+    border-radius: 5px;
+}
+
+.modal-display-removed-item .modal-body p {
+    margin: 0;
+}
+
+.modal-display-removed-item .modal-body .list {
+    font-size: var(--btnSize);
+    color: var(--color-65-black);
+    margin: 0;
+}
+
+
+
+.btn-cart button {
+    color: var(--color-65-black);
+    padding: 4px 20px;
+    max-width:150px;
+    width: 100%;
+    margin: 20px 15px;
+}
+
+.modal .modal-footer button {
+    font-size: var(--btnSize);
+    padding: 5px 10px;
+}
+
+.modal .modal-content {
+    max-width: 350px;
+}
+

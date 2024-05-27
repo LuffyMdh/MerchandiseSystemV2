@@ -1,0 +1,119 @@
+main {
+    background-color: var(--white);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    min-height: 100vh;
+}
+
+main .container {
+    display: flex;
+}
+
+main .top-header {
+    padding-top: 5px;
+}
+
+main .top-header h4 {
+    color: #000;
+    opacity: 65%;
+    font-size: var(--PageTitle);
+    margin: 0;
+    vertical-align: middle;
+}
+
+main .search-box {
+    font-size: 0.6rem;
+    padding: 2px 6px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 100px;
+    background-color: var(--textbox);
+}
+
+main .search-box::placeholder {
+    color: #000;
+    opacity: 25%;
+}
+
+main .top-section {
+    border-bottom: 2px solid var(--bordercolor);
+    width: 90%;
+    margin: auto;
+}
+
+main .top-btn {
+    display: flex;
+}
+
+main .top-section > * {
+    text-align: center;
+    margin: 15px 0;
+}
+
+main .top-section .empty {
+    display: inline-flex;
+    justify-content: center;
+}
+
+main .top-section .empty > * {
+    margin: 0 5px;
+}
+
+main .top-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .top-btn > * {
+    margin: 0 10px;
+}
+
+main .bi-bag {
+    color: #000;
+    opacity: 50%;
+}
+
+.btn-dropdown,
+.btn-dropdown:active,
+.btn-dropdown:hover,
+.btn-dropdown:focus {
+    background-color: var(--lightgray);
+    padding: 0.2rem 1rem;
+    color: var(--color-65-black);
+    border: none;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    font-size: var(--tableHeader);
+    width: 150px;
+}
+
+.btn-dropdown:first-child:active {
+    background-color: var(--main-color);
+    opacity: 0.8;
+    
+}
+
+.dropdown-list { 
+    padding: 0;
+    font-size: var(--tableHeader);
+    cursor: pointer;
+}
+
+.dropdown-list > a:active  {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.dropdown-list > a:hover {
+    background-color: var(--main-color);
+    opacity: 0.8;
+    color: white;
+}
+
+.dropdown-active {
+    background-color: var(--main-color);
+    color: white;
+}

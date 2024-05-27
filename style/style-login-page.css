@@ -1,0 +1,146 @@
+body {
+    background-color: var(--lightgray); 
+}
+
+.login-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--lightgray);
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.login-img {
+    padding: 0;
+    margin: 0;
+}
+
+.login-img img {
+    width: 100%;
+    max-width: 656px;
+    height: auto;
+    border-radius: 20px 0 0 20px;
+}
+
+.login-section {
+    display: none;
+}
+
+.signup-section {
+    display: none;
+}
+
+.active {
+    display: block !important;
+}
+
+.user-form-section {
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    color: var(--color-65-black);
+}
+
+.user-form-section input:focus    {
+    box-shadow: none !important;
+    border: 1px solid var(--main-color);
+}
+
+.user-form-section input:active    {
+    box-shadow: none !important;
+}
+
+.user-form-section input::placeholder {
+    opacity: 0.3;
+}
+
+.user-form-section .div-logo {
+    text-align: center;
+    padding: 10px 0 3px 0;
+}
+
+.user-form-section h6 {
+    font-size: var(--btnSize);
+    font-weight: var(--regular);
+}
+
+.user-form-section p {
+    font-size: var(--PageTitle);
+    font-weight: var(--semiBold);
+    border-bottom: 1px solid var(--bordercolor);
+    padding: 0 0 5px 0;
+    margin: 0;
+
+}
+
+.detail-form {
+    position: relative;
+}
+
+.detail-form .form-group {
+    padding: 10px 5px;
+    
+}
+
+.detail-form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.detail-form .form {
+    margin: 0;
+}
+
+.detail-form .no-have-account {
+    font-size: var(--btnSize);
+    font-weight: var(--light);
+    text-align: center;
+}
+
+.detail-form .no-have-account span a {
+    color: var(--main-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.detail-form .no-have-account span a:focus {
+    outline: none;
+    filter: brightness(80%);
+}
+
+.detail-form .no-have-account span a:hover {
+    filter: brightness(80%);
+}
+
+.detail-form .no-have-account span a:active {
+    filter: brightness(100%);
+}
+
+
+@media screen and (max-width: 991px) {
+    body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('../assets/img/login-img.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center; 
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+    }
+
+    .login-img {
+        display: none;
+    }
+}

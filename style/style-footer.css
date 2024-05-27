@@ -1,0 +1,12 @@
+.user-footer {
+    background-color: var(--lightgray);
+    margin: 0;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user-footer p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 0.8rem;
+}

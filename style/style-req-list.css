@@ -1,0 +1,57 @@
+.modal-header,
+.modal-heder .table tr th,
+.modal-heder .table tr td {
+    color: var(--color-65-black) !important;
+}
+
+.modal-header {
+    padding-bottom: 3px;
+}
+
+.sect-req-list {
+    width: 90%;
+    margin: auto;
+}
+
+.tbl-col-date {
+    cursor: pointer;
+}
+
+
+.modal-request-detail .div-table {
+    width: 100%;
+    
+}
+
+.modal-request-detail .div-table .tbl-request-status {
+    border-top: 1px solid var(--bordercolor);
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.modal-request-detail .div-table .tbl-request-status tr th {
+    width: 120px;
+}
+.modal-request-detail .div-table .tbl-request-doc tr td {
+    padding: 0;
+}
+
+.modal-request-detail .div-table table tr th,
+.modal-request-detail .div-table table tr td {
+    color: var(--color-65-black);
+}
+
+.modal-body {
+    overflow-y: visible !important;
+}
+
+.modal-content {
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 650px;
+    }
+}
